@@ -1,5 +1,5 @@
 /*
-	Ex Machina by TEMPLATED
+	NoJobs.com by NoJobsgroup
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -14,48 +14,55 @@
 
 	body,input,textarea,select
 	{
-		font-size: 11pt;
 	}
 
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
+	header
 	{
-		padding: 6em 0em;
-	}
-
-	.homepage #banner
-	{
-		padding: 12em 0em;
+		margin-bottom: 1.6em;
 	}
 	
+		header h2
+		{
+			font-size: 3.4em;
+		}
+
+		header .byline
+		{
+			font-size: 1.7em;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 10em 0 6em 0;
+	}
+
+	.homepage #header
+	{
+		padding: 16em 0 12em 0;
+	}
+
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#page
-	{
-		padding: 2em 0em 6em 0em;
-	}
-	
-	.homepage #page
+	#main
 	{
 		padding: 6em 0em;
 	}
-
-	#main
-	{
-		margin-top: 3em;
-		padding-top: 2em;
-		border-top: none;
-	}
 	
-	.homepage #main
+	.homepage #content header h2
 	{
-		margin-top: 6em;
-		padding-top: 6em;
+		padding: 0.70em 0em;
+		font-size: 2.2em;
+	}
+
+	#sidebar h2
+	{
+		font-size: 2.4em;
 	}
 
 /*********************************************************************************/
@@ -64,21 +71,48 @@
 	
 	#footer
 	{
-		padding: 0em 0em 4em 0em;
+		padding: 6em 0em;
 	}
-
+	
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
 	
 	#featured
 	{
-		padding: 4em 0em;
+		padding: 6em 0em;
+	}
+	
+	#featured h3
+	{
+		padding: 1.5em 0em;
+		font-size: 1.6em;
 	}
 
-	
-	#featured .divider
+	#featured header
 	{
-		padding: 2em 0em;
+		margin-bottom: 3em;
 	}
 	
+	#featured p
+	{
+		line-height: 2em;
+		font-size: 1.2em;
+	}
+	
+/*********************************************************************************/
+/* Tweet                                                                         */
+/*********************************************************************************/
+	
+	#tweet
+	{
+		padding: 6em 0em;
+	}
+
+	#tweet blockquote
+	{
+		margin: 0;
+		padding: 1em 4em;
+		line-height: 1.5em;
+		font-size: 1.8em;
+	}	

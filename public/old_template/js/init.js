@@ -1,5 +1,5 @@
 /*
-	Ex Machina by TEMPLATED
+	NoJobs.com by NoJobsgroup
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -47,7 +47,8 @@ skel.init({
 				position: 'top-left',
 				height: 44,
 				width: '100%',
-				html: '<span class="toggle" data-action="togglePanel" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>'
+				html: '<span class="toggle" data-action="togglePanel" data-args="navPanel"></span>' +
+ '<span class="title" data-action="copyHTML" data-args="logo"></span>'
 			}
 		}
 	}
